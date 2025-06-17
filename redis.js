@@ -1,4 +1,7 @@
 const { Redis } = require('ioredis');
 
-// by default redis runs on localhost:6379
-module.exports = new Redis();
+module.exports = new Redis({
+    host: '127.0.0.1',
+    post: 6379,
+    maxRetriesPerRequest: null, // required for bullMQ
+});
