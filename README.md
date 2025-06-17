@@ -15,3 +15,6 @@ project/
 - How to process them in a separate worker?
 - How to add retry logic with backoff?
 - How to log and handle failures (DLQ -> Dead Letter Queue)
+
+## Result
+[▶️ Watch Recording](recordings.mov)
